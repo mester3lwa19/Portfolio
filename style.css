@@ -312,7 +312,11 @@ section {
 }
 
 .contact .info h3 {
-    color: #000;
+    color: #000 !important;
+}
+
+.contact .info h3:hover {
+    color: #fff !important;
 }
 
 .contact .info p {
